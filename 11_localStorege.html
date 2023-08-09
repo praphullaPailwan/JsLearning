@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Web Storage </title>
+    </head>
+    <body>
+        <h3> Session Storage</h3>
+        <h2>
+             --- Stores data for one session that is data is lost when the browser tab is closed
+        </h2>
+        <h2>
+            --- Even with page refresh data survives that is data will not lost or cleared
+        </h2>
+        <script>
+                      window.localStorage.setItem("name","vinayak khandekar")
+                      window.localStorage.setItem("city","pune")
+                      window.localStorage.setItem("pincode","400032")
+                      const no_of_items=window.localStorage.length
+                      window.localStorage.removeItem("name")
+                      console.log(no_of_items);
+        </script>
+
+
+        </script>
+    </body>
+</html>
