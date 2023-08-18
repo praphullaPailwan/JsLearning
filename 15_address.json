@@ -1,0 +1,10 @@
+{
+    "rollNO": 123,
+    "name": "Prafull Pailwan",
+    "marks": 75,
+    "awards": {
+        "hsc": "School tooper",
+        "Ssc": "Division Topper",
+        "graduation": "Gold Modilist"
+    }
+}
